@@ -52,7 +52,7 @@ function intentar(){
             console.log(INTENTO[i], "gris");
             console.log('INTENTO:', INTENTO);
             console.log('palabra:', palabra);
-            SPAN.innerHTML = INTENTO[i];
+            SPAN.innerHTML = '';
             SPAN.style.backgroundColor = '#a4aec4';
         }     
             
